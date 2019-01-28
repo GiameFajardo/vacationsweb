@@ -10,8 +10,8 @@
 </head>
 <body>
     <header>    
-        <figure>
-            <img src="img/hero.jpg" alt="Logo">
+        <figure class="logo-image-conteiner">
+            <img class="logo-image" src="img/hero.jpg" alt="Logo">
         </figure>
         <nav>
             <ol>
@@ -21,52 +21,42 @@
             </ol>
         </nav>
     </header>
-    <section class="main-section">
-        <h1>Title 1</h1>
+    <section class="main-section hero">
+        <h1>Title 1</h1> 
         <a href="https://fonts.google.com" target="_blank">Google fonts</a>
-        <img src="" alt="Hero">
+        <figure class="main-section-image-conteiner">
+            <img class="main-section-image" src="" alt="Hero">
+        </figure>
     </section>
-    <section class="places-saction" id="places">   
-        <h2>Places</h2>
-        <article>
-            <h3>Place 1</h3>
-            <h6>Place 1 sub title</h6>
-            <p><strong>Place 1 site:</strong> www.ddf.com</p>
-            <p>Place 1 details</p>
-            <img src="img/dudulake.jpg" alt="Dudu Lake Image">
+    <section class="places-section" id="places">   
+        <h2 class="places-title">Places</h2>
+        <article class="place">
+            <h3 class="place-title">Place 1</h3>
+            <h6 class="place-sub-title">Place 1 sub title</h6>
+            <p class="place-site"><strong>Place 1 site:</strong> www.ddf.com</p>
+            <p class="place-detail">Place 1 details</p>
+            <figure class="place-image-conteiner">
+                <img class="place-image" src="img/dudulake.jpg" alt="Dudu Lake Image">
+            </figure>
         </article>
-        <!-- <article>
-            <h3>Place 2</h3>
-            <h6>Place 2 sub title</h6>
-            <p><strong>Place 2 site:</strong> www.ddf.com</p>
-            <p>Place 2 details</p>
-            <img src="img/dudulake.jpg" alt="Dudu Lake Image">
-        </article>  -->
     </section>
     <section class="activities-section" id="activities">   
-        <h2>Activities Title</h2>
-        <article>
-            <figure>
-                <img src="" alt=""/>
+        <h2 class="activities-title">Activities Title</h2>
+        <article class="activity">
+            <figure class="activity-image-conteiner">
+                <img class="activity-image" src="" alt=""/>
             </figure>
-                <h3>Activity 1 Tilte</h3>
-                <p>Activity 1 description</p>
-                <a href="">Activity 1 link video</a>
-            <img src="img/Buggy.JPG" alt="">
-        </article>
-        <!-- <article>
-                <figure>
-                    <img src="" alt=""/>
+                <h3 class="activity-title">Activity 1 Tilte</h3>
+                <p class="activity-description">Activity 1 description</p>
+                <a class="activity-video-link" href="">Activity 1 link video</a>
+                <figure class="activity-image-conteiner">
+                    <img class="activity-image" src="img/Buggy.JPG" alt="">
                 </figure>
-                    <h3>Activity 2 Tilte</h3>
-                    <p>Activity 2 description</p>
-                    <a href="">Activity 2 link video</a>
-                    <img src="img/Buggy.JPG" alt="">
-            </article> -->
+        </article>
     </section>
     <section class="us-section" id="us">
-        <h3>uS</h3>
-        <form action="x">
+        <h3 class="us-title">uS</h3>
+        <form action="x" class="contact-me">
             <label for="email">label</label>
             <input type="email" placeholder="Déjame tu email" id="email">
             <input type="submit" value="Boton">
