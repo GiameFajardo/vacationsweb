@@ -1,10 +1,12 @@
 /*text*/
 body{
     font-family: 'Courier New', Courier, monospace;
+    margin:0px;
 }
 
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
 }
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -20,16 +22,35 @@ p{
     text-decoration: dashed; 
      
 }
+.menu{
+    margin: 0px;
+}
 /* sizes*/
+.places-section{
+    background: #fafafa;
+}
+.place{
+    background: white;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    margin:10px;
+    padding: 15px;
+    margin-bottom: 15px;
 
+}
 .place-detail{
     width: 500px;
 }
-.place-image-conteiner, .place-image-conteiner img{
+.place-image-conteiner{
     width: 500px;
+}
+.place-image-conteiner img{
+    width: 500px;
+    margin: 0px 500px 0px 0px;
 }
 .hero *{
     color: #026fff;
+    margin: 0px;
 } 
 .hero{
     height: 300px;
@@ -54,6 +75,7 @@ p{
 header{
     background-color: #1b2127;
     color:white;
+    margin: 0px;
 }
 
 header a{
