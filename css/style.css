@@ -5,7 +5,7 @@ body{
 }
 
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gochi Hand', cursive;
     margin: 0px;
 }
 h2{
@@ -24,7 +24,26 @@ p{
 }
 .menu{
     margin: 0px;
+    padding: 0px;
     display: flex;
+    height: inherit;
+    /* flex-wrap: wrap;
+    justify-items: center; 
+    align-items: center; */
+    list-style: none;
+}
+.menu li{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    height: inherit;
+}
+.menu li a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+    flex-shrink: 0;
 }
 /* sizes*/
 .places-section{
@@ -58,12 +77,16 @@ p{
     height: 300px;
     background-color: #1b2127;
     background-image: url('../img/hero.jpg');
-    background-size: 1000px, 300px;
+    background-size: 100%, 100%;
     background-repeat: no-repeat;
-    background-position-y: -150px;
+    background-position-y: 40%;
+    display: flex;
 }
 .hero .main-section-image-conteiner img{
     height: 300px;
+}
+.hero img{
+    widows: 100px;
 }
 .activity-detail{
     width: 500px;
@@ -73,16 +96,37 @@ p{
 }
 
 /*Color e img*/
-ul, ol{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+header nav{
+   height: inherit;
 }
 header{
     background-color: #1b2127;
     color:white;
     margin: 0px;
     display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+}
+footer div {
+    display: flex;
+    align-items: center;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer strong{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 28px;
+    padding: 0 10px;
 }
 figure{
     margin: 0;
